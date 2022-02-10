@@ -25,7 +25,8 @@ public class menu_general {
  
                 switch (opcion) {
                     case 1:
-                        //tablero();
+                       tablero tablero_1 = new tablero();
+                       tablero_1.tablero1();
                         break;
                     case 2:
                         //puntajes();
@@ -40,6 +41,6 @@ public class menu_general {
                 System.out.println("Debes insertar un número");
                 lector.next();
             }
-      }
-}
+        }
+    }
 }
